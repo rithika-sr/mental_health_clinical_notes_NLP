@@ -1,0 +1,21 @@
+# Data files (raw CSV files are too large for GitHub)
+data/raw/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+
+# Large files
+*.csv
+!mental_health_preprocessed.csv
