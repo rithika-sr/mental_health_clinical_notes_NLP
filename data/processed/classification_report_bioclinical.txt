@@ -1,0 +1,24 @@
+Mental Health Crisis Detection - BioClinicalBERT
+================================================================================
+
+Model: emilyalsentzer/Bio_ClinicalBERT
+Max Sequence Length: 256 tokens
+Class Weights: Enabled
+
+              precision    recall  f1-score   support
+
+     No Risk     0.8923    0.8707    0.8814      4765
+        Mild     0.8423    0.8671    0.8545      3867
+    Moderate     0.8894    0.9178    0.9034       219
+        High     0.9480    0.9388    0.9434       621
+
+    accuracy                         0.8748      9472
+   macro avg     0.8930    0.8986    0.8956      9472
+weighted avg     0.8754    0.8748    0.8750      9472
+
+
+Class Weights Used:
+No Risk        : 0.4969
+Mild Risk      : 0.6124
+Moderate Risk  : 10.8293
+High Risk      : 3.8153
