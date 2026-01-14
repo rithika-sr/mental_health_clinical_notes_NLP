@@ -16,6 +16,14 @@ __pycache__/
 venv/
 env/
 
-# Large files
-*.csv
-!mental_health_preprocessed.csv
+# Large CSV files in root and raw folder
+data/raw/*.csv
+
+# Model files (too large for GitHub)
+models/
+*.safetensors
+*.pt
+*.bin
+
+# But allow processed CSV files
+!data/processed/*.csv
