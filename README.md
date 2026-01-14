@@ -353,12 +353,10 @@ This project demonstrated several critical lessons in production ML:
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **BioClinicalBERT:** Alsentzer et al., "Publicly Available Clinical BERT Embeddings"
 - **Hugging Face Transformers:** For excellent NLP libraries
 - **Dataset Sources:** Reddit mental health communities, Twitter mental health discussions
 
----
 
-*Built as a capstone project for Data Science/ML Engineer roles*
